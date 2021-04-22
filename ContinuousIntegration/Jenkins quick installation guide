@@ -1,0 +1,28 @@
+Step 1:
+Download MSI installation file from:
+https://jenkins.io/download/
+Follow instructins to complete installation.
+or Download the latest version of jenkins.war file from:
+https://updates.jenkins-ci.org/download/war (this is the official website of Jenkins).
+
+Step 2:
+Create a folder with name 'Jenkins' in your C: directory and move the downloaded jenkins.war in it.
+Type cmd in windows "Run" to open command prompt and navigate to C:\Jenkins
+Execute 'java -jar Jenkins.war' command and it will start installing Jenkins.
+Follow instructins to complete installation.
+
+Step 3:
+Configure Jenkins to run @tests testng by maven following below youtube guide:
+https://www.youtube.com/watch?v=eIldJE4tSlA
+
+Step 4:
+Configure Jenkins to scheduling a Build following below youtube guide:
+https://www.youtube.com/watch?v=xRhEkLxmi0s
+More examples:
+http://www.bogotobogo.com/DevOps/Jenkins/Jenkins_Scheduling_Job.php
+http://blogs.microsoft.co.il/meravk/2015/06/10/how-to-schedule-a-build-in-jenkins
+https://itisatechiesworld.wordpress.com/jenkins-related-articles/jenkins-configuration/jenkins-scheduling-jenkins-jobs-for-a-specific-time
+
+Step 5:
+Configure Jenkins to send Email on build failure to gmail following below youtube guide:
+https://www.youtube.com/watch?v=9JZS98NfpWk

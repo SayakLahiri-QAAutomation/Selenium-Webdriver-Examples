@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Suite" verbose="1" >
+    <test name="Unit Level Test Cases" >
+        <classes>
+            <class name="inheritance.TestAnyWebSite"/>
+        </classes>
+    </test>
+</suite>
+
+<!--<suite> : suite tag defines the TestNG test suite. You can give any name to your suite using 'name' attribute.
+<test> : test tag defines the TestNG test. You can give any name to your test using 'name' attribute.
+<classes> : classes tag defines multiple class. We can multiple test class under classes tag.
+<class> : class tag defines the class name which you wants to consider in test execution.-->

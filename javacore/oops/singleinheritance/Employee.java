@@ -1,0 +1,10 @@
+package corejava.oops.singleinheritance;
+
+/**
+ * Created by Maor on 5/25/2018.
+ */
+
+public class Employee {
+
+    String firstname = "Maor";
+}

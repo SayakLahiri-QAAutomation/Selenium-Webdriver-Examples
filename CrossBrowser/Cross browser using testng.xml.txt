@@ -1,0 +1,8 @@
+If we require to run any tests script on multiple browsers to check the browser compatibility:
+TestNG has mechanism to perform same test on different browsers in a simple and easy way.
+
+1) Create tests Script to test a using TestNG class: e.g. public class CrossBrowser
+
+2) Pass ‘Browser Type’ as parameters using TestNG annotations to the before method
+   or before test of the TestNG class. This will launch only the browser, which will be
+   provided as parameter.
